@@ -8,8 +8,8 @@ body{
 }
 
 .catius-img{
-    width: 400px;
-    height: 470px;
+    width: 370px;
+    height: 435px;
      
      padding: 0.5rem 0;
      border-radius: 15px;
@@ -60,13 +60,13 @@ body{
 }
 .intro{
     font-family: Playpen Sans,sans-serif; 
-  padding-left: 0.5rem;
-  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-right:1rem ;
   font-weight: bold;
   color: #d6e3e8d6;
-}
+  
 .intro-section{
-    background-color:#2a9d8f ;
+    
     background-image: linear-gradient(to left bottom, #22242b, #324352, #3a6577, #408b97, #51b2ae);
     border-radius: 15px;
     margin: 2rem 1rem;
