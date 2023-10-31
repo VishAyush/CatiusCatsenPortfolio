@@ -1,0 +1,88 @@
+body{
+    
+    font-family: Kanit,sans-serif;
+    background-image: linear-gradient(to bottom, #000000, #0f0307, #18070e, #1f0a15, #250d1a, #281325, #291932, #25213e, #112f4c, #003c52, #004850, #135249);
+   
+    
+
+}
+
+.catius-img{
+    width: 400px;
+    height: 470px;
+     
+     padding: 0.5rem 0;
+     border-radius: 15px;
+
+}
+
+
+.navbar-brand{
+ font-weight: bolder;
+ font-size: 1.5rem;
+ color: rgb(228, 228, 237);
+ margin-left: 1rem;
+}
+.navbar-brand:hover{
+    color: rgba(166, 182, 20, 0.97);
+}
+.navbar-toggler-icon{
+    background-color: yellow;
+}
+.nav-link{
+ font-weight: bold;
+ font-size: 1.3rem;
+ display: inline-block;
+ position: relative;
+ color:rgb(228, 228, 237);
+
+}
+
+.nav-link::after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(133, 133, 9, 0.685);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover{
+    color: rgba(166, 182, 20, 0.97);
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.intro{
+    font-family: Playpen Sans,sans-serif; 
+  padding-left: 0.5rem;
+  padding-right: 4rem;
+  font-weight: bold;
+  color: #d6e3e8d6;
+}
+.intro-section{
+    background-color:#2a9d8f ;
+    background-image: linear-gradient(to left bottom, #22242b, #324352, #3a6577, #408b97, #51b2ae);
+    border-radius: 15px;
+    margin: 2rem 1rem;
+    
+}
+
+.top-section{
+    /* width: 1300px; */
+}
+
+.navbar-nav{
+    width: 1000px;
+}
+@media(min-width:768px){
+.intro{font-size: 1.5rem;}
+
+}
+
+
