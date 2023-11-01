@@ -8,14 +8,17 @@ body{
 }
 
 .catius-img{
-    width: 370px;
-    height: 435px;
+    width: 320px;
+    height: 400px;
      
      padding: 0.5rem 0;
      border-radius: 15px;
 
 }
 
+ul{
+    width: 900px;
+}
 
 .navbar-brand{
  font-weight: bolder;
@@ -73,16 +76,16 @@ body{
     
 }
 
-.top-section{
-    /* width: 1300px; */
-}
 
 .navbar-nav{
-    width: 1000px;
+    /* width: 1000px; */
+    justify-content: space-between;
 }
 @media(min-width:768px){
 .intro{font-size: 1.5rem;}
 
 }
 
-
+{
+    color: #d6e3e8d6;
+}
